@@ -1,0 +1,36 @@
+# Python / Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets and Artifacts (DO NOT COMMIT LARGE FILES)
+data/*.jsonl
+data/*.jsonl.gz
+data/*.parquet
+!sample_data/*.parquet
+outputs/*.csv
+
+# Logs & Caches
+*.log
+*.tmp
+*.cache
+*.bak
+*.sqlite
+
+# HuggingFace & Models
+models/
+artifacts/
+checkpoints/

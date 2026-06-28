@@ -1,0 +1,23 @@
+# configs/settings.yaml
+model:
+  name: "all-MiniLM-L6-v2"
+  batch_size: 2048
+
+weights:
+  semantic: 0.55
+  behavioral: 0.25
+  experience: 0.20
+
+thresholds:
+  max_ideal_experience_years: 15.0
+  max_ideal_notice_days: 90.0
+  honeypot_penalty_multiplier: 0.1
+  good_semantic_score: 0.60
+  good_response_rate: 0.80
+  immediate_notice_days: 30.0
+
+behavioral_multipliers:
+  response_rate_weight: 0.6
+  completeness_weight: 0.2
+  notice_period_weight: 0.2
+  fallback_response_rate: 0.1
