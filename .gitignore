@@ -34,3 +34,5 @@ outputs/*.csv
 models/
 artifacts/
 checkpoints/
+
+data/team_submission.csv
